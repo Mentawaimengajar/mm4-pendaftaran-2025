@@ -1,74 +1,65 @@
-<!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Link Pengabdian Masyarakat</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MM4 - Mentawai Mengajar Indonesia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to bottom, #00aaff, #ffffff);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 30px;
-      color: #00334e;
-    }.profile-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
-h1 {
-  margin: 15px 0 5px;
-  font-size: 24px;
-}
-
-p.bio {
-  font-size: 14px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.link-button {
-  background-color: #007acc;
-  color: white;
-  padding: 12px 20px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 400px;
-  text-align: center;
-  font-size: 16px;
-  text-decoration: none;
-  display: block;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: background-color 0.3s;
-}
-
-.link-button:hover {
-  background-color: #005f99;
-}
-
-.footer {
-  margin-top: 40px;
-  font-size: 12px;
-  color: #00334e;
-  opacity: 0.6;
-}
-
+      background: linear-gradient(to bottom, #0077B6, #CAF0F8);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    .link-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .link-button {
+      display: block;
+      background-color: #ffffff;
+      color: #0077B6;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: all 0.2s ease-in-out;
+    }
+    .link-button:hover {
+      background-color: #023E8A;
+      color: white;
+    }
   </style>
 </head>
 <body>
-  <img src="https://i.imgur.com/your-photo.jpg" alt="Foto Profil" class="profile-img">
-  <h1>Nama Kamu</h1>
-  <p class="bio">Mengabdi di pulau terpencil, membawa harapan dan perubahan 🌊🏝</p><a href="https://wa.me/nomorkamu" class="link-button">WhatsApp</a> <a href="https://www.instagram.com/username" class="link-button">Instagram</a> <a href="https://drive.google.com/yourdocument" class="link-button">Dokumentasi Kegiatan</a> <a href="https://youtu.be/yourvideo" class="link-button">Video Pengabdian</a>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Indonesia.svg/2560px-Flag_of_Indonesia.svg.png" alt="MM4 Logo" class="logo">
+  <h1>Mentawai Mengajar Indonesia - MM4</h1>
+  <p>Ekspedisi Pengabdian Masyarakat ke Pulau Mentawai<br>Batch 4 | Tahun 2025</p>
 
-  <div class="footer">© 2025 - Pengabdian Masyarakat Pulau</div>
+  <div class="link-container">
+    <a href="https://link-pendaftaran-fullyfunded.com" class="link-button" target="_blank">🔗 Daftar Fully Funded</a>
+    <a href="https://link-pendaftaran-selffunded.com" class="link-button" target="_blank">🔗 Daftar Self Funded</a>
+    <a href="https://link-twibbon.com" class="link-button" target="_blank">📸 Twibbon MM4</a>
+    <a href="https://link-template-motivation.com" class="link-button" target="_blank">📝 Template Motivation Letter</a>
+    <a href="https://link-caption-twibbon.com" class="link-button" target="_blank">📣 Caption Twibbon</a>
+    <a href="https://link-panduan.com" class="link-button" target="_blank">📘 Buku Panduan Pendaftaran</a>
+  </div>
 </body>
 </html>
